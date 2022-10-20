@@ -42,11 +42,24 @@ public class Item {
         //return 0;
 //    }
 
-   // public String toString()
-    //{
-      //      return ""
+    public String toString()
+    {
+        String comp = "";
 
-    //}
+        if(isItemCompleted == true)
+        {
+            comp = "[Completed]";
+        }
+        else
+        {
+            comp = "[TODO]";
+        }
+
+
+        return "Item description: " + itemDescription
+                + ", Is item completed: " + comp;
+
+    }
 
 }
 

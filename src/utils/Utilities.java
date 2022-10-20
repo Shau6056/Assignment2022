@@ -64,10 +64,9 @@ public class Utilities {
      * a specific length or not.
      *
      * @param strToCheck The string that will be checked to see if it is a specific length
-     * @param maxLength The length that the string will be validated against
      * @return True if the string is less than or equal the max length and false otherwise.
      */
-    public static boolean validateStringLength(String strToCheck, int maxLength){
+    public static boolean validateStringLength(String strToCheck,int maxLength){
         return strToCheck.length() <= maxLength;
     }
 
