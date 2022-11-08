@@ -21,43 +21,54 @@ public class Item {
 
     }
 
-    public String getItemDescrption() {
+    public String getItemDescription() {
         return itemDescription;
     }
 
-    public void setItemDescription(String itemDescriptionption) {
+    public void setItemDescription(String itemDescription)
+    {
+        if(Utilities.validateStringLength(itemDescription, 50))
+        {
         this.itemDescription = itemDescription;
+        }
+    }
+    public boolean isItemCompleted()
+    {
+        if(isItemCompleted == true)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
-    public boolean isItemCompleted() {
-        return isItemCompleted;
-    }
-
-    public void setItemCompleted(boolean itemCompleted) {
+    public void setItemCompleted(boolean itemCompleted)
+    {
         isItemCompleted = itemCompleted;
     }
 
-    //public boolean equals(Item itemIn)
-    //{
-        //return 0;
-//    }
+    public boolean equals(Item itemIn)
+    {
+        return(this == itemIn);
+    }
+
 
     public String toString()
     {
-        String comp = "";
+        String comp ="";
 
-        if(isItemCompleted == true)
+        if(isItemCompleted)
         {
-            comp = "[Completed]";
+            comp ="[Complete]";
         }
         else
         {
             comp = "[TODO]";
         }
+        return getItemDescription() + comp;
 
-
-        return "Item description: " + itemDescription
-                + ", Is item completed: " + comp;
 
     }
 
