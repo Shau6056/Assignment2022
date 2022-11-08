@@ -13,12 +13,14 @@ public class Note {
     private boolean isNoteArchived = false;
     private ArrayList<Item> items = new ArrayList();
 
-    public Note(String noteTitleIn, int notePriorityIn, String noteCategoryIn) {
-        setNoteTitle(noteTitleIn);
+    public Note(String noteTitle, int notePriority, String noteCategory) {
 
-        setNotePriority(notePriorityIn);
+        setNoteTitle(noteTitle);
 
-        setNoteCategory(noteCategoryIn);
+        setNotePriority(notePriority);
+
+        setNoteCategory(noteCategory);
+
     }
 
     public String getNoteTitle() {
@@ -52,8 +54,12 @@ public class Note {
     public void setNoteCategory(String noteCategoryIn) {
         String[] noteCategoryCheck = {"Home", "Work", "Hobby", "Holiday", "College"};
 
+        String lowerCaseCategory = getNoteCategory().toLowerCase();
+
+
         for (int i = 0; i < noteCategoryCheck.length; i++) {
-            if (noteCategoryCheck[i].equals(noteCategoryIn) == true) {
+            if (lowerCaseCategory.equals(noteCategoryCheck[i].toLowerCase())) {
+
                 noteCategory = noteCategoryIn;
             }
         }

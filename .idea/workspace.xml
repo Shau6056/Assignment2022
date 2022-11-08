@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34e28fd8-d4a4-4701-9780-7d8aa175c38e" name="Changes" comment="updated21/10/202200.16">
-      <change afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
+    <list default="true" id="34e28fd8-d4a4-4701-9780-7d8aa175c38e" name="Changes" comment="08/11/2022 updated draft">
+      <change afterPath="$PROJECT_DIR$/test/NoteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2022.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Note.java" afterDir="false" />
     </list>
@@ -59,7 +58,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ItemTest.validatingTheEqualsMethod">
+  <component name="RunManager" selected="JUnit.NoteTest$BoilerPlateTests.toStringContainsAllFieldsInObject">
     <configuration name="All in Assignment2022" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2022" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,25 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2022" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemTest.itemDescriptionGetAndSetWorkingCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2022" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="METHOD_NAME" value="itemDescriptionGetAndSetWorkingCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ItemTest.validatingTheEqualsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2022" />
       <extension name="coverage">
@@ -118,13 +98,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NoteTest$BoilerPlateTests.toStringContainsAllFieldsInObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2022" />
+      <option name="PACKAGE_NAME" value="NoteTest" />
+      <option name="MAIN_CLASS_NAME" value="NoteTest$BoilerPlateTests" />
+      <option name="METHOD_NAME" value="toStringContainsAllFieldsInObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2022" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NoteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NoteTest$BoilerPlateTests.toStringContainsAllFieldsInObject" />
+        <item itemvalue="JUnit.NoteTest" />
         <item itemvalue="JUnit.ItemTest.validatingTheEqualsMethod" />
         <item itemvalue="JUnit.ItemTest (1)" />
         <item itemvalue="JUnit.All in Assignment2022" />
-        <item itemvalue="JUnit.ItemTest" />
-        <item itemvalue="JUnit.ItemTest.itemDescriptionGetAndSetWorkingCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,7 @@
       <workItem from="1666863516970" duration="572000" />
       <workItem from="1666889953035" duration="200000" />
       <workItem from="1667821155205" duration="24400000" />
-      <workItem from="1667855988444" duration="10379000" />
+      <workItem from="1667855988444" duration="13845000" />
     </task>
     <task id="LOCAL-00001" summary="newNEw">
       <created>1666216601677</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666307804830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="08/11/2022 updated draft">
+      <created>1667900581913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667900581913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="newNEw" />
     <MESSAGE value="updated21/10/202200.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated21/10/202200.16" />
+    <MESSAGE value="08/11/2022 updated draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="08/11/2022 updated draft" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
